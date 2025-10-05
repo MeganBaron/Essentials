@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Bookshelf_Scene_MeganBaron.ma
-//Last modified: Fri, Oct 03, 2025 10:41:01 PM
+//Last modified: Fri, Oct 03, 2025 10:42:27 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Cup" -rfn "CupRN" -op "v=0;" -typ "mayaAscii" "/Users/meganbaron/Documents/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Cup.ma";
 file -rdi 1 -ns "Unit4_CurvesLab" -rfn "Unit4_CurvesLabRN" -op "v=0;" -typ "mayaAscii"
@@ -15,12 +15,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6.1";
-fileInfo "UUID" "0FEBF8AF-3447-A163-74D7-15B8D6FDE0B6";
+fileInfo "UUID" "2B605A4E-CD4B-DA77-4F3C-0EB2237D6C50";
 createNode transform -s -n "persp";
 	rename -uid "22399599-494E-4288-CF45-048A409ED92A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -21.441987814593585 17.389625107043315 16.159460660568779 ;
-	setAttr ".r" -type "double3" 696.86164727295579 -59.80000000000301 0 ;
+	setAttr ".t" -type "double3" -26.813239250413531 7.7666922432802163 10.076379275657228 ;
+	setAttr ".r" -type "double3" 713.66164727293892 -73.400000000004525 0 ;
 	setAttr ".rp" -type "double3" 0 -8.8817841970012523e-16 -2.2204460492503131e-16 ;
 	setAttr ".rpt" -type "double3" -1.3949118009931541e-15 4.4109501949590567e-16 -1.7398878491337112e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
