@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: S2TeaCupMB.ma
-//Last modified: Wed, Nov 19, 2025 08:53:20 PM
+//Last modified: Wed, Nov 19, 2025 08:54:12 PM
 //Codeset: UTF-8
 requires maya "2026";
 currentUnit -l centimeter -a degree -t film;
@@ -9,12 +9,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6.1";
-fileInfo "UUID" "6DCE60E9-9C49-58EB-B2C8-85BE491CD5A8";
+fileInfo "UUID" "0C2E6B5F-914C-2D56-1875-858A80799751";
 createNode transform -s -n "persp";
 	rename -uid "40DCA89D-BF4E-9565-5A0B-FD97A74D60D4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 33.227303203988917 -3.4896617512569756 -3.1763571801893988 ;
-	setAttr ".r" -type "double3" 9.2616473085669657 -268.60000001121091 5.0888874903416268e-14 ;
+	setAttr ".t" -type "double3" 25.545640224873061 11.102484484563639 16.689551145446874 ;
+	setAttr ".r" -type "double3" -17.138352691441135 -308.60000001121011 0 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-16 0 -8.8817841970012523e-16 ;
 	setAttr ".rpt" -type "double3" -5.1334979977962666e-16 -4.2432792967523854e-17 1.1481517499603101e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -9064,7 +9064,7 @@ createNode shadingEngine -n "blinn2SG";
 createNode materialInfo -n "materialInfo3";
 	rename -uid "A1866AD3-6E4F-D93B-B47C-458A37E63B7B";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "655ED0C3-804C-A8A5-DEE8-54BD453E52B7";
+	rename -uid "20E75877-7641-771B-AA3E-2EA026B0E2E4";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" 2149.7592864100811 -889.28567894867638 ;
 	setAttr ".tgi[0].vh" -type "double2" 3219.288119290763 -219.04761034344912 ;
